@@ -7,7 +7,7 @@
                  [org.clojure/tools.logging "0.4.1"]
                  [org.clojure/tools.cli "0.3.7"]
                  [com.stuartsierra/dependency "0.2.0"]
-                 [ch.qos.logback/logback-classic "1.2.3"]
+
                  [com.taoensso/nippy "2.14.0"]
                  [org.rocksdb/rocksdbjni "5.14.2"]
                  [org.lwjgl/lwjgl "3.2.0" :classifier "natives-linux" :native-prefix ""]
@@ -19,6 +19,7 @@
                  [ring/ring-core "1.6.3"]
                  [ring/ring-jetty-adapter "1.6.3"]]
   :profiles {:dev {:dependencies [[org.clojure/tools.namespace "0.2.11"]
+                                  [ch.qos.logback/logback-classic "1.2.3"]
                                   [org.apache.kafka/kafka_2.11 "2.0.0"]
                                   [org.apache.zookeeper/zookeeper "3.4.13"
                                    :exclusions [io.netty/netty
